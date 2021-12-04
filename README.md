@@ -16,8 +16,8 @@ Below are the repositories for maven.
 ```xml
 <dependency>
   	<groupId>com.github.danib150</groupId>
-	  <artifactId>Commons</artifactId>
-	  <version>Tag</version>
+	<artifactId>Commons</artifactId>
+	<version>Tag</version>
 </dependency>
 ```
 
