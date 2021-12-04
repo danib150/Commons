@@ -1,11 +1,14 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
 group 'it.dbruni'
 version '1.0-SNAPSHOT'
 
 repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
     maven {
 
         mavenCentral()
@@ -17,13 +20,12 @@ repositories {
     }
     maven { url = 'https://oss.sonatype.org/content/repositories/snapshots' }
     maven { url = 'https://oss.sonatype.org/content/repositories/central' }
-    mavenLocal() // This is needed for CraftBukkit and Spigot.
     maven { url = 'https://repo.extendedclip.com/content/repositories/placeholderapi/'}
 
 }
 
 dependencies {
-
+    implementation 'com.github.jitpack:gradle-simple:1.0'
     compileOnly 'me.clip:placeholderapi:2.10.10'
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT' // The Spigot API with no shadowing. Requires the OSS repo.
     compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT' // The full Spigot server with no shadowing. Requires mavenLocal.
