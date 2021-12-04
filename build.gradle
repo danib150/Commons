@@ -6,6 +6,11 @@ plugins {
 group 'it.dbruni'
 version '1.2-SNAPSHOT'
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
 repositories {
     jcenter()
     maven { url "https://jitpack.io" }
