@@ -26,12 +26,9 @@ Below are the repositories for gradle.
 
 **Repository**:
 ```xml
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+repositories {
+    maven { url = 'https://jitpack.io' }
+}
 ```
 
 **Dependency**
