@@ -1,0 +1,8 @@
+#################################
+##### COMMONS CONFIGURATION #####
+#################################
+
+main-configuration:
+  tablist:
+    header: "Ciao\nTest di Configurazione Header\n1.0"
+    footer: "Ciao\nTest di Configurazione Footer\n1.0"

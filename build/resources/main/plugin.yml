@@ -1,0 +1,6 @@
+name: Commons
+main: it.dbruni.plugin.Commons
+version: 1.0-SNAPSHOT
+author: dbruni
+softdepend:
+  - PlaceholderAPI
